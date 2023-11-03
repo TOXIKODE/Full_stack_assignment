@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Full Stack Assignment</h1>
+    <br>
+    <a href="http://127.0.0.1:8000/create/api/devices/">API to create a device</a>
+    <br>
+    <p>U have to enter the device_uid which u want to delete in url <a href="http://127.0.0.1:8000/delete/devices/<str:device_uid>/">API to delete a device</a></p>
+    <p>U have to enter the device_uid which u want to retrieve in url device_uid=A11 for demo<a href="http://127.0.0.1:8000/retrieve/api/devices/A11/"> API to retrieve a device</a></p>
+    <a href="http://127.0.0.1:8000/list/api/devices/">API to list all devices</a>
+    <br>
+    <p>U have to add device_uid, parameter, start_on and end_on in the url <a href="http://127.0.0.1:8000/api/devices/A11/readings/temperature/?start_on=2023-11-03T12:13:34&end_on=2023-11-03T12:13:34">• API to return readings for the given device in a given period.</a></p>
+    <p><a href="http://127.0.0.1:8000/devices-graph/?device_uid=A11">API for the device-graph/?device_uid=A11</a></p>
+</body>
+</html>
